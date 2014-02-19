@@ -19,6 +19,7 @@
 		E2963F8518B4000C008084FE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2963F6D18B4000C008084FE /* UIKit.framework */; };
 		E2963F8D18B4000D008084FE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E2963F8B18B4000D008084FE /* InfoPlist.strings */; };
 		E2963F8F18B4000D008084FE /* ToDoLostTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E2963F8E18B4000D008084FE /* ToDoLostTests.m */; };
+		E2963F9918B40204008084FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2963F9818B40204008084FE /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		E2963F8A18B4000D008084FE /* ToDoLostTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ToDoLostTests-Info.plist"; sourceTree = "<group>"; };
 		E2963F8C18B4000D008084FE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E2963F8E18B4000D008084FE /* ToDoLostTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ToDoLostTests.m; sourceTree = "<group>"; };
+		E2963F9818B40204008084FE /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 			children = (
 				E2963F7818B4000C008084FE /* AppDelegate.h */,
 				E2963F7918B4000C008084FE /* AppDelegate.m */,
+				E2963F9818B40204008084FE /* Main.storyboard */,
 				E2963F7B18B4000C008084FE /* Images.xcassets */,
 				E2963F7018B4000C008084FE /* Supporting Files */,
 			);
@@ -219,6 +222,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2963F9918B40204008084FE /* Main.storyboard in Resources */,
 				E2963F7418B4000C008084FE /* InfoPlist.strings in Resources */,
 				E2963F7C18B4000C008084FE /* Images.xcassets in Resources */,
 			);
